@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	background-color:#DED0D1;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+h{font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+/*Navigator part*/
+nav{
+	text-transform: uppercase;
+	background-color:#F7F397;
+	position: relative;
+	bottom: 8px;
+	padding-bottom: 0px;
+}
+.nav-logo{
+	position: absolute;
+	left: 50px;
+	height: 70px;
+	width: 50px;
+}
+
+.nav-content{
+	position: relative;
+	display: inline-block;
+	margin-left: 800px;
+	margin-top: 10px;
+}
+a{
+	color:#959595;
+list-style-type: none;
+}
+
+a:hover{
+	color:#FC94A4;
+}
+li{
+	display: inline-block;
+margin: 10px;
+}
+.nav-content li a{
+	text-decoration: none;
+}
+
+/*first section*/
+.big-logo{
+	position: relative;
+	bottom: 10px;
+	height: 400px;
+}
+
+
+
+/*second section*/
+.second-section{
+	position: relative;
+	bottom: 60px;
+	background-color: #FFF9E0;
+	text-align: left;
+	padding: 30px 10px;
+	/*margin: 0px 0px;*/
+}
+
+
+input[type=submit]{
+	letter-spacing: 2px;
+	color: #A1C45A;
+	background-color: white;
+	border-color: #A1C45A;
+	padding: 16px 50px;
+	margin-radius:4px 2px;
+	border-style: solid;
+	position: relative;
+	left: 43%;
+}
+
+
+#foot{
+	display: inline-block;
+	text-transform: uppercase;
+	color:#5A5A5A;
+	font-size: 13px;
+}
+.im{
+	height: 20px;
+    width: 20px;
+}
+
+.col-2{
+	display: inline-block;
+margin: 12px;
+}
+
